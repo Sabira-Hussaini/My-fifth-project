@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body{
   padding-top: 80px;
  }
@@ -326,4 +327,334 @@
 
 #card img{width: 100px;
 height: 100px;
+=======
+ body{
+  padding-top: 80px;
+ }
+    .navbar {
+    
+
+
+  background-color: #e0f8f5; /* نیمه شفاف */
+  backdrop-filter: blur(10px);               /* افکت شیشه‌ای */
+  -webkit-backdrop-filter: blur(10px);       /* برای Safari */
+  transition: top 0.4s ease-in-out;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* خط باریک پایین */
+
+    }
+    .navbar-hidden {
+      top: -100px;
+    }
+    .navbar-brand img {
+      width: 80px;
+      height: 80px;
+      margin-right: 8px;
+      display: block;
+    }
+    .brand-text {
+      font-weight: 700;
+      font-size: 28px;
+      
+    }
+    .tagline {
+      font-size: 12px;
+      color: #4caf50;
+      margin-top: -4px;
+    }
+    /*.btn-buy {
+      background-color: #2e7d32;
+      color: #fff;
+    }
+    .btn-buy:hover {
+      background-color: #27642a;
+      color: #fff;
+    }*/
+.hero-section {
+    padding: 80px 0;
+    background: linear-gradient(to bottom, #f8fef8, #e8f5e9);
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2e7d32; /* سبز برند */
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 500px;
+}
+
+.hero-btn {
+    background-color: #2e7d32;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #27642a;
+    color: #fff;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+#collection .card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+#collection .card-title {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.section-subtitle {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feature-icon {
+    font-size: 3rem;
+}
+
+.feature-card h5 {
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+
+.card-title {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+.site-footer {
+  background-color: #e0f8f5;
+  color: #222;
+  font-size: 14px;
+}
+
+.site-footer h4.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.site-footer h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.site-footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.btn-subscribe {
+  background-color: #00c2a8;
+  color: #fff;
+  border: none;
+}
+
+.btn-subscribe:hover {
+  background-color: #00a18b;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: #222;
+  margin-right: 10px;
+}
+
+
+
+/* بخش Guarantee Boxes */
+.section-title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+.shadow-sm {
+  transition: all 0.3s ease;
+}
+
+.shadow-sm:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+/* FAQ Accordion */
+.accordion-button {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+  background-color: #e2f0e9;
+}
+
+.accordion-body {
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+
+
+
+
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text {
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  white-space: nowrap; /* متن افقی باقی می‌ماند */
+}
+
+/* Fade In and Out Animation */
+@keyframes fadeInOut {
+  0%   { opacity: 0; transform: translate(-50%, 20px); }
+  10%  { opacity: 1; transform: translate(-50%, 0); }
+  90%  { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -20px); }
+}
+
+/* Delay settings */
+.delay1 { animation: fadeInOut 5s ease-in-out 0s forwards; }
+.delay2 { animation: fadeInOut 5s ease-in-out 5s forwards; }
+.delay3 { animation: fadeInOut 5s ease-in-out 10s forwards; }
+.delay4 { animation: fadeInOut 5s ease-in-out 15s forwards; }
+.delay5 { animation: fadeInOut 5s ease-in-out 20s forwards; }
+
+
+
+
+
+/* Notification Style */
+.sale-popup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff8dc;
+  color: #333;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 15px;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* When visible */
+.sale-popup.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+
+.cart-icon i {
+  font-size: 28px;        /* بزرگ‌تر از حالت معمول */
+  color: black;           /* رنگ مشکی */
+  transition: color 0.3s;
+}
+
+.cart-icon i:hover {
+  color: #4caf50;         /* رنگ سبز در حالت hover (اختیاری) */
+}
+
+
+
+#cart button {
+    font-size: 18px;
+  }
+  #cart-items {
+    border-radius: 10px;
+  }
+
+#card img{width: 100px;
+height: 100px;
+>>>>>>> 383a8b0fe3d5c226a52b0169fa4eb8ea22f0b134
 border-radius: 50%;}
